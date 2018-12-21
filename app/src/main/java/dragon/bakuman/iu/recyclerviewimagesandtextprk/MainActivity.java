@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         //pass the int array
-        mAdapter = new RecyclerAdapter(mImages);
+        mAdapter = new RecyclerAdapter(mImages, this);
 
         mRecyclerView.setAdapter(mAdapter);
 
